@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+
+.shore-daraw::after{
+    content: "";
+    clear: both;
+    margin:auto;
+    display: block;
+}
+
+
+/* start header */
+
+header{
+    background-color: #101446;
+}
+.menu-wraper {
+    width: 73%;
+    padding: 10px 0;
+    margin: auto;
+}
+.menu-wraper .logo {
+    width: 10%;
+    float: left;
+    
+}
+.menu-wraper .logo img {
+    width: 100%;
+    
+}
+
+.menu-item {
+    float: right;
+}
+.menu-item .menu {
+    display: inline;
+    line-height: 76px;
+}
+.menu-item .menu li {
+    display: inline-block;
+    
+}
+.menu-item .menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+    
+}
+
+
+/* end header menu */
+
+.banner{
+    background-image: url(./img/intro-bg.jpg);
+    background-size: cover;
+}
+.banner-content {
+    text-align: center;
+    padding: 300px 200px;
+}
+.banner-content h1 {
+    color: white;
+    font-size: 40px;
+    padding: 40px 0;
+}
+.banner-content p {
+    color: white;
+    margin-bottom: 0px;
+}
+.banner-content .button {
+    padding: 10px 20px;
+    background-color: #337ab7;
+    display: inline-block;
+    margin-top: 58px;
+    border-radius: 5px;
+}
+.banner-content .button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* end banner */
+
+
+.our-team {
+    background-color: #bac1f3;
+}
+.team-member {
+    padding: 50px;
+    
+}
+.team-member h1 {
+    text-align: center;
+    font-weight: 400;
+    padding: 50px;
+    font-size: 50px;
+}
+
+.allteam{}
+.allteam .button {
+    background-color: #337ab7;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.allteam .button a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 13px;
+}
+.team1 {
+    float: left;
+    width: 33%;
+    text-align: center;
+    padding: 0px 115px;
+}
+.team1 h4{}
+.team1 p{}
+.button{}
+.button a{}
+
+.team2{float: left;
+    width: 33%;
+    text-align: center;
+    padding: 0px 115px;}
+
+.team3{float: left;
+    width: 33%;
+    text-align: center;
+    padding: 0px 115px;}
+
+
+    /* end our team */
+
+    .aboutme {
+        /* width: 70%; */
+        /* margin: auto; */
+        background-color: #c2d4ea;
+        padding: 100px 200px;
+    }
+    .aboutme h1 {
+        text-align: center;
+        font-size: 50px;
+        font-weight: 300;
+        padding: 40px;
+    }
+    .img-about {
+        float: left;
+        width: 50%;
+    }
+.imgme{
+    float: left;
+    width: 50%;
+}
+.imgme img{}
+
+.name {
+    float: right;
+    width: 50%;
+}
+.name p {
+    line-height: 31px;
+}
+
+.info {
+    /* float: none; */
+    /* width: 100%; */
+    /* text-align: left; */
+    padding: 15px 30px 0 0;
+}
+
+.about-content {
+    float: right;
+    width: 50%;
+}
+.about-content h1 {
+    padding: 0;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.about-content h4{
+    margin: 10px 0;
+}
+.about-content p {
+    margin: 10px 0;
+}
+.about-content h2{}
+
+
+/* end aboutu us */
+
+
+.contact {
+    padding: 0 200px;
+}
+.contact h1 {
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.location {
+    float: left;
+    width: 50%;
+}
+.location .img{}
+
+
+.contact-info {
+    float: left;
+    width: 50%;
+}
+
+.contact-item {
+    margin-left: 10px;
+}
+.contact-email {
+    display: block;
+    padding: 5px 10px;
+}
+.contact-message {
+    display: block;
+    margin: 20px 10px;
+    padding: 10px 30px;
+    background: beige;
+    border-radius: 5px;
+}
+.contact-coment {
+    width: 200px;
+    height: 100px;
+}
